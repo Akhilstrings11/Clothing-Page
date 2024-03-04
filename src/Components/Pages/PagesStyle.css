@@ -1,0 +1,40 @@
+font{
+    color: gray;
+    text-decoration: line-through;
+    font-weight: 100;
+    font-size: 13.3px;
+}
+
+h6,p{
+    margin: 0.5px 0px 0px 0px;
+}
+
+
+/* Mens Page */
+
+@media screen and (max-width: 510px) {
+    .capp{
+        display: flex;
+        padding: 3px 0px 3px 0px !important; 
+        font-size: 16px;
+    }
+}
+
+/* shirts Page */
+
+
+.btn{
+    padding: 0.3px 10px 0.3px 10px;
+    margin: 2px;
+}
+
+@media screen and (max-width: 450px){
+    p{
+        font-size: 12px;
+    }
+
+    h6{
+        font-size: 15px;
+        margin: 3px 0px 0px 0px;
+    }
+}

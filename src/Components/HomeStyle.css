@@ -1,0 +1,45 @@
+.items{
+    width: 200px;
+}
+
+.brandimg{
+    width: 200px;
+}
+
+.red{
+    color: red;
+}
+
+.fadee{
+    color: rgb(85, 85, 85);
+}
+
+.inames::first-letter {
+    color: red;
+}
+
+.stitle{
+    margin: 0px;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    .div2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c1{
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .items{
+        width: 150px;
+    }
+}

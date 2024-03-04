@@ -1,0 +1,22 @@
+.navItems{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    transition: ease-in-out 0.3s;
+}
+
+.navItems:hover{
+    border-bottom: 2.5px solid red;
+    cursor: pointer;
+    color: rgb(218, 216, 216);
+}
+
+.brand{
+    width: 50px;
+}
+
+.navItems{
+    font-size: 16.5px;
+}
